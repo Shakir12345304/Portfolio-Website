@@ -1,0 +1,170 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+body{
+    background-color: azure;
+    color: cadetblue;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.header{
+    top: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    background-color: darkolivegreen;
+}
+.menu{
+    cursor: pointer;
+    display: none;
+}
+.logo{
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+    color: black;
+}
+.navbar a{
+    font-size: 18px;
+    margin-left: 64px;
+    font-weight: 700;
+    color: white;
+}
+.navbar a:hover{
+    background-color: black;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-img img{
+    width: 350px;
+    height: 400px;
+    border-radius: 50%;
+    padding: 28px;
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: indigo;
+}
+.home-content h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: indigo;
+}
+.home-content p{
+    font-size: 15px;
+    color: black;
+
+}
+.btn{
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 350;
+    background-color: darkseagreen;
+    color: azure;
+    padding: 9px;
+    margin-left: 30px;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 15px;
+    padding: 15px;
+    color: indigo;
+    background-color: darkcyan;
+}
+.about-content p{
+    color: black;
+    font-size: 8px;
+    text-align: center;
+}
+.about-content h2{
+    font-size: 50px;
+    gap: 10px;
+    text-align: left;
+}
+.about-img img{
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.services h2{
+    margin-bottom: 25px;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 30px ;
+    color: black;
+}
+.services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.services-container .services-box{
+    background-color: powderblue;
+    padding: 35px;
+    text-align: center;
+    border-radius: 10px;
+}
+.services{
+    color: black;
+}
+.contact{
+    background-color: rgb(211, 221, 224);
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+    margin-bottom: 15px;
+}
+.contact h2{
+    margin-bottom: 30px;
+    font-size: 28px;
+    text-align: center;
+    justify-content: center;
+    color: black;
+}
+form{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.contact form{
+    display: flex;
+    max-width: 600px;
+    margin: 14px;
+    text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+form input,
+form textarea {
+  width: 450px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin: 8px;
+}
+
