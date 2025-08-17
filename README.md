@@ -1,2 +1,1 @@
-Shakir Ahmed-Portfolio
 This is my personal portfolio website where I present who I am, what I do, and how you can contact me. It highlights my skills in frontend development, services I offer, and provides a clean contact form for communication.A clean and modern personal portfolio to showcase my journey as a developer.
