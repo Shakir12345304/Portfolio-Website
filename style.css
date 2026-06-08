@@ -3,10 +3,10 @@
     margin: 0px;
     box-sizing: border-box;
     text-decoration: none;
-    outline: none;
 }
 body{
-    background-color: azure;
+    font-family:'poppins', sans-serif;
+    background: whitesmoke;
     color: cadetblue;
 }
 html{
@@ -15,7 +15,9 @@ html{
 }
 .header{
     top: 0px;
-    right: 0px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,6 +27,8 @@ html{
 .menu{
     cursor: pointer;
     display: none;
+    font-size: 24px;
+    color: white;
 }
 .logo{
     font-size: 25px;
@@ -34,7 +38,7 @@ html{
 }
 .navbar a{
     font-size: 18px;
-    margin-left: 64px;
+    margin-left: 20px;
     font-weight: 700;
     color: white;
 }
@@ -43,17 +47,20 @@ html{
 }
 .home{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    padding-top: 80px;
 }
 .home-img img{
-    width: 350px;
-    height: 400px;
+    width: 280px;
+    height: 280px;
     border-radius: 50%;
     padding: 28px;
+    border: 5px;
+    object-fit: cover;
 }
 .home-content h3{
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 700;
     color: indigo;
 }
@@ -68,29 +75,30 @@ html{
 
 }
 .btn{
-    border-radius: 30px;
+    border-radius: 25px;
     display: inline-block;
     font-size: 14px;
     font-weight: 350;
-    background-color: darkseagreen;
+    background: darkseagreen;
     color: azure;
     padding: 9px;
-    margin-left: 30px;
+    margin-top: 10px;
+    transition: 0.3s;
 }
 .about{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 100px;
-    gap: 15px;
-    padding: 15px;
+    gap: 40px;
+    padding: 80px;
     color: indigo;
-    background-color: darkcyan;
+    background: #e0f2f1;
 }
 .about-content p{
     color: black;
-    font-size: 8px;
-    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
 }
 .about-content h2{
     font-size: 50px;
@@ -104,17 +112,15 @@ html{
     cursor: pointer;
 }
 .services h2{
-    margin-bottom: 25px;
-    font-size: 45px;
-    text-align: center;
-    padding-top: 30px ;
+    margin-bottom: 40px;
+    font-size: 35px;
     color: black;
 }
 .services-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 12px;
+    gap: 20px;
 }
 .services-container .services-box{
     background-color: powderblue;
@@ -123,6 +129,8 @@ html{
     border-radius: 10px;
 }
 .services{
+    padding: 80px 10%;
+    text-align: center;
     color: black;
 }
 .contact{
@@ -130,8 +138,7 @@ html{
     cursor: pointer;
     display: flex;
     text-align: center;
-    justify-content: center;
-    padding: 40px;
+    padding: 80px;
     margin-bottom: 15px;
 }
 .contact h2{
@@ -145,6 +152,7 @@ form{
     display: flex;
     align-items: center;
     gap: 14px;
+    flex-direction: column;
 }
 .contact form{
     display: flex;
